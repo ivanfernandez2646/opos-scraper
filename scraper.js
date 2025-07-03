@@ -59,8 +59,8 @@ async function main() {
 function getRequestConfig() {
   let data = qs.stringify({
     cuerpos_lista: "0590",
-    especialidades_lista: "001", // 225 is the specialty for secondary school exams
-    tribunales_lista: "03", // 03
+    especialidades_lista: "225", // 225
+    tribunales_lista: "04", // 04
   });
 
   let config = {
